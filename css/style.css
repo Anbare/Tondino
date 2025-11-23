@@ -169,6 +169,12 @@ button {
 
 /* CONDIVISE */
 
+main,
+footer {
+  padding: var(--space-3);
+}
+
+
 /* Spaziatura */
 :where(h1, h2, h3, h4, p, small, li, a) + :where(h1, h2, h3, h4, p, small, li, a) {
   margin-top: var(--space-3);
@@ -203,6 +209,7 @@ main {
   flex-direction: column;
   gap: var(--space-3);
   padding-top: 100vh;
+  text-wrap: balance;
 }
 
 .image{
